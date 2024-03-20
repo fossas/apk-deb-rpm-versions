@@ -1,5 +1,5 @@
 {
-  "name": "apk-deb-rpm-versions-js",
+  "name": "apk-deb-rpm-versions",
   "license": "Apache-2.0",
   "devDependencies": {
     "@vitest/coverage-istanbul": "^1.4.0",
