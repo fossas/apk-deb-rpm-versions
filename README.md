@@ -10,7 +10,7 @@ package is inspired by (and uses test cases from)
 ## Installing
 
 ```bash
-npm install fossas/apk-dep-rpm-versions#main
+npm install fossas/apk-dep-rpm-versions#master
 
 # you can also pin the library to specific commit or tag
 # refer to: https://docs.npmjs.com/cli/v8/commands/npm-install
@@ -19,7 +19,7 @@ npm install fossas/apk-dep-rpm-versions#main
 ## Example Usage
 
 ```ts
-import { ApkVersion, DebVersion, RpmVersion, ExpressionBuilder } from 'hello';
+import { ApkVersion, DebVersion, RpmVersion, ExpressionBuilder } from 'apk-deb-rpm-versions';
 
 console.log('rpm..', RpmVersion.parse('1.2.4').greaterThan(RpmVersion.parse('1.2.3')));
 console.log('deb..', DebVersion.parse('1.2.4').greaterThan(DebVersion.parse('1.2.3')));
