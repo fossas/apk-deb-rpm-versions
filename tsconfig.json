@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "alwaysStrict": true,
+    "incremental": true,
+    "target": "ES2019",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "dist",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/*"],
+  "exclude": ["*.test.ts", "src/*.test.ts"]
+}
