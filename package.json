@@ -2,10 +2,10 @@
   "name": "apk-deb-rpm-versions",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@vitest/coverage-istanbul": "^1.4.0",
+    "@vitest/coverage-istanbul": "^1.6.0",
     "prettier": "3.2.5",
     "typescript": "^5.0.0",
-    "vitest": "1.4.0"
+    "vitest": "1.6.0"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
